@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ffxiv/ember-overlay/static/css/main.bda413ba.chunk.css",
-    "main.js": "/ffxiv/ember-overlay/static/js/main.68da3f40.chunk.js",
-    "main.js.map": "/ffxiv/ember-overlay/static/js/main.68da3f40.chunk.js.map",
-    "runtime~main.js": "/ffxiv/ember-overlay/static/js/runtime~main.241a6bff.js",
-    "runtime~main.js.map": "/ffxiv/ember-overlay/static/js/runtime~main.241a6bff.js.map",
-    "static/js/2.6f3c43cf.chunk.js": "/ffxiv/ember-overlay/static/js/2.6f3c43cf.chunk.js",
-    "static/js/2.6f3c43cf.chunk.js.map": "/ffxiv/ember-overlay/static/js/2.6f3c43cf.chunk.js.map",
-    "index.html": "/ffxiv/ember-overlay/index.html",
-    "precache-manifest.ba038780730999b1ba0a708666eb31f4.js": "/ffxiv/ember-overlay/precache-manifest.ba038780730999b1ba0a708666eb31f4.js",
-    "service-worker.js": "/ffxiv/ember-overlay/service-worker.js",
-    "static/css/main.bda413ba.chunk.css.map": "/ffxiv/ember-overlay/static/css/main.bda413ba.chunk.css.map"
+    "main.css": "./static/css/main.f88254ba.chunk.css",
+    "main.js": "./static/js/main.d14d0221.chunk.js",
+    "main.js.map": "./static/js/main.d14d0221.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/js/2.6f3c43cf.chunk.js": "./static/js/2.6f3c43cf.chunk.js",
+    "static/js/2.6f3c43cf.chunk.js.map": "./static/js/2.6f3c43cf.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.91da24eaf467d09d115a640e7d58f2dd.js": "./precache-manifest.91da24eaf467d09d115a640e7d58f2dd.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.f88254ba.chunk.css.map": "./static/css/main.f88254ba.chunk.css.map"
   }
 }
