@@ -1,38 +1,59 @@
 # Changelog
 
-## 0.6.0-alpha
+## 0.7.0-alpha
 
 **Released: [in development]**
 
 *! - indicates change is available on the staging site*
 
 ### Bug Fixes
-- ! - Long-pressing left click will no longer trigger the context menu
-- ! - Numbers for max hit/heal in certain regions will no longer result in "NaN"
-- ! - Changelog sections will no longer display in "About" if they contain no changes
+- IN PROGRESS: Table summation does not work for some regions
 
 ### Features
-- ! - Added button to toggle collapsed state
-- ! - Added setting to make overlay collapse downwards
-- ! - Added settings to change player names to short names
-- ! - Added setting for overlay zoom
-- ! - Overlay can be minimized in the bottom corners
+- IN PROGRESS: Add settings import/export
+- IN PROGRESS: Add streamers panel
+- IN PROGRESS: Add light theme
 
 ### UI Changes
-- ! - Changed player table "CH DH %" header to "CDH %" for critical direct hits
-- ! - Moved minimize buttons to the corners of the overlay
-- ! - Added tooltips on hover to all icon buttons to make their purpose clearer
-- ! - Made settings page accessible from right-click menu
-- ! - Converted custom CSS input box to a code input box
-- ! - Encounter time is now listed at the beginning of the encounter info
-- ! - Encounters titled "Encounter" will simply list the zone name rather than displaying "Encounter" first
+- ?
 
 ### Code Changes
-- ! - Added `react-tooltip` package for icon button tooltips
-- ! - Added `react-simple-code-editor` package to convert CSS textarea to styled code input
+- ?
 
 ### Miscellaneous
-- ! - Added staging site info to README
+- ?
+
+## 0.6.0-alpha
+
+**Released: 2019-08-04**
+
+### Bug Fixes
+- Long-pressing left click will no longer trigger the context menu
+- Numbers for max hit/heal in certain regions will no longer result in "NaN"
+- Changelog sections will no longer display in "About" if they contain no changes
+
+### Features
+- Added button to toggle collapsed state
+- Added setting to make overlay collapse downwards
+- Added settings to change player names to short names
+- Added setting for overlay zoom
+- Overlay can be minimized in the bottom corners
+
+### UI Changes
+- Changed player table "CH DH %" header to "CDH %" for critical direct hits
+- Moved minimize buttons to the corners of the overlay
+- Added tooltips on hover to all icon buttons to make their purpose clearer
+- Made settings page accessible from right-click menu
+- Converted custom CSS input box to a code input box
+- Encounter time is now listed at the beginning of the encounter info
+- Encounters titled "Encounter" will simply list the zone name rather than displaying "Encounter" first
+
+### Code Changes
+- Added `react-tooltip` package for icon button tooltips
+- Added `react-simple-code-editor` package to convert CSS textarea to styled code input
+
+### Miscellaneous
+- Added staging site info to README
 
 ## 0.5.0-alpha
 
