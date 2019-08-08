@@ -7,21 +7,31 @@
 *! - indicates change is available on the staging site*
 
 ### Bug Fixes
-- IN PROGRESS: Table summation does not work for some regions
+- ! - Resolved issue where table summation did not work for some regions
+- ! - Resolved issue where changing multiple settings simultaneously wouldn't update all settings
 
 ### Features
-- IN PROGRESS: Add settings import/export
-- IN PROGRESS: Add streamers panel
-- IN PROGRESS: Add light theme
+- ! - Added settings import/export
+    - To export, open the settings window, navigate to the "Export" page, and copy the export key
+    - To import, right click on the overlay, choose "Import," and paste the exported key
+- ! - Added streamers panel at Settings > Streamers
+    - If streamers are live, only live streamers are featured
+    - If all streamers are offline, all streamers are featured
+    - Streamer display order is random for fairness
+- ! - Added light theme
+    - Setting to enable is located at Settings > Interface > "Use Light Theme"
 
 ### UI Changes
-- ?
+- ! - Right-click menu is now more organized with group dividers
 
 ### Code Changes
-- ?
+- Added `lodash.shuffle` as a convenient Fisher-Yates shuffle implementation
+    - Used to shuffle the streamer list for fair, random display orders
+- Added LESS functions file at `/src/styles/functions/common.less` to support theme-specific CSS
+- Refactored several LESS files within `/src/styles/components`
 
 ### Miscellaneous
-- ?
+- N/A
 
 ## 0.6.0-alpha
 
