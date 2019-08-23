@@ -1,25 +1,59 @@
 # Changelog
 
-## 0.8.0-alpha
+## 0.9.0-alpha
 
 **Released: [in development]**
 
 *! - indicates change is available on the staging site*
 
 ### Bug Fixes
+- ! - Resolved issue where saved CSS would not appear in code editor on subsequent loads of the settings window
+- ! - HOTFIX: Resolved issue where calculating effective healing metrics may cause an error
+
+### Features
+- ! - Added setting to display total DPS (rDPS) in overlay footer
+- ! - Added setting to show overlay footer when collapsed
+- ! - Added setting to show performance background bars
+- ! - Added setting to specify current player's name
+- ! - Converted on/off player name shortening setting to setting with four options
+    - Options are: No shortening, First L., F. Last, and F. L.
+
+### UI Changes
+- ! - Renamed "TPS" (Tank Per Second) to "DTPS" (Damage Taken Per Second)
+- ! - Changed blur intensity when blurring player names
+- ! - Added value indicator to settings sliders
+
+### Code Changes
+- Added migration system to convert old data to new data
+    - File structure is as follows:
+        - `/src/constants/Migrations.js` lists the available migrations in order of creation
+        - `/src/migrations/*` contains each migration file and its logic
+        - `/src/services/MigrationService.js` handles running any pending migrations
+    - Migration process is initiated from `/src/index.js`
+- Implemented reconnect delay when a connection to ACTWebSocket fails or closes
+
+### Miscellaneous
+- Updated README with OverlayPlugin version requirement
+- Updated README with ACTWebSocket version requirement
+
+## 0.8.0-alpha
+
+**Released: 2019-08-18**
+
+### Bug Fixes
 - N/A
 
 ### Features
-- ! - Added new metric "tank per second"
+- Added new metric "tank per second"
     - Shows damage tanked per second (TPS)
-- ! - Added graphs to the player detail view
+- Added graphs to the player detail view
     - Graphs display DPS, HPS, and TPS
-- ! - Added setting to move table footer row to top of table
+- Added setting to move table footer row to top of table
 - ON HOLD: Add setting to display total DPS in bottom right of overlay
 - ON HOLD: Add setting to show bottom of overlay when collapsed
 
 ### UI Changes
-- ! - Added "View Encounter Detail" to right-click menu
+- Added "View Encounter Detail" to right-click menu
 
 ### Code Changes
 - Added `lodash.mergewith` to customize the way arrays are merged for settings
