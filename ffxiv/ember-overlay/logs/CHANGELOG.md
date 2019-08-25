@@ -1,5 +1,40 @@
 # Changelog
 
+## 0.9.0-alpha
+
+**Released: 2019-08-25**
+
+### Bug Fixes
+- Resolved issue where saved CSS would not appear in code editor on subsequent loads of the settings window
+- HOTFIX: Resolved issue where calculating effective healing metrics may cause an error
+
+### Features
+- Added setting to display total DPS (rDPS) in overlay footer
+- Added setting to show overlay footer when collapsed
+- Added setting to show performance background bars
+- Added setting to specify current player's name
+- Converted on/off player name shortening setting to setting with four options
+    - Options are: No shortening, First L., F. Last, and F. L.
+
+### UI Changes
+- Renamed "TPS" (Tank Per Second) to "DTPS" (Damage Taken Per Second)
+- Changed blur intensity when blurring player names
+- Added value indicator to settings sliders
+- Added donation info to overlay startup screen and settings window
+
+### Code Changes
+- Added migration system to convert old data to new data
+    - File structure is as follows:
+        - `/src/constants/Migrations.js` lists the available migrations in order of creation
+        - `/src/migrations/*` contains each migration file and its logic
+        - `/src/services/MigrationService.js` handles running any pending migrations
+    - Migration process is initiated from `/src/index.js`
+- Implemented scaling reconnect delay when a connection to ACTWebSocket fails or closes
+
+### Miscellaneous
+- Updated README with OverlayPlugin version requirement
+- Updated README with ACTWebSocket version requirement
+
 ## 0.8.0-alpha
 
 **Released: 2019-08-18**
