@@ -11,7 +11,7 @@
 
 ### Features
 - ! - Added setting to specify decimal accuracy (0, 1, or 2 - default)
-- ! -Added setting to shorten thousands to "K"
+- ! - Added setting to shorten thousands to "K"
 
 ### UI Changes
 - N/A
