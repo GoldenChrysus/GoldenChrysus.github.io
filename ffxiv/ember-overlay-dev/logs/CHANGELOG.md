@@ -1,17 +1,36 @@
 # Changelog
 
-## 0.11.0-alpha
+## 0.12.0-alpha
 
 **Released: [in development]**
 
 *! - indicates change is available on the staging site*
 
 ### Bug Fixes
+- Resolved issue where decimal accuracy of 0 would not be saved.
+
+### Features
+- Added setting to blur job icons when blurring player names
+
+### UI Changes
+- Updated some translations for Chinese.
+
+### Code Changes
+- ?
+
+### Miscellaneous
+- ?
+
+## 0.11.0-alpha
+
+**Released: 2019-09-15**
+
+### Bug Fixes
 - N/A
 
 ### Features
-- ! - Added setting to specify decimal accuracy (0, 1, or 2 - default)
-- ! - Added setting to shorten thousands to "K"
+- Added setting to specify decimal accuracy (0, 1, or 2 - default)
+- Added setting to shorten thousands to "K"
 
 ### UI Changes
 - N/A
