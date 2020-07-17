@@ -1,16 +1,39 @@
 # Changelog
 
-## 0.18.0-alpha
+## 0.19.0-alpha
 
 **Released: [in development]**
 
 *! - indicates change is available on the staging site*
 
 ### Bug Fixes
+- ! - Fixed issue with Twitch streamers list not loading in settings menu
+
+### Features
+- ! - Added new player metrics: Heal Count, Shields, and Parry %.
+    - "Heal Count" is the number of heals (not the health value of heals) casted
+    - "Shields" is health value of shielding casted
+    - "Parry %" is the frequency of parrying, similar to "Block %"
+
+### UI Changes
+- ! - Renamed "Select All" in Settings > Export to "Copy" -- button now automatically initiates a copy of all of the export text
+
+### Code Changes
 - ?
+
+### Miscellaneous
+- ! - Added welcome message in OverlayPlugin logs
+
+## 0.18.0-alpha
+
+**Released: 2020-07-05**
+
+### Bug Fixes
+- N/A
 
 ### Features
 - Added minimal theme
+    - Enable the minimal theme in Settings > Interface > Theme
 
 ### UI Changes
 - Shortened English "Death" table title to "Dth"
