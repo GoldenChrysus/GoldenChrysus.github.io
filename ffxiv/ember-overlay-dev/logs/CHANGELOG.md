@@ -1,19 +1,36 @@
 # Changelog
 
-## 0.20.0-alpha
+## 0.20.1-alpha
 
-**Released: [in development]**
-
-*! - indicates change is available on the staging site*
+**Released: 2020-08-01**
 
 ### Bug Fixes
-- ! - Fixed issue where rank was higher than it should be if player is in last place
-- ! - Fixed issue with overlay crashing in some cases when an monster's target had not yet been processed in the combatant tables
+- Fixed issue where max DPS is sometimes not registered correctly due to incorrect data types
 
 ### Features
-- ! - Added new player metric: Max Damage Per Second
+- N/A
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
+## 0.20.0-alpha
+
+**Released: 2020-07-26**
+
+### Bug Fixes
+- Fixed issue where rank was higher than it should be if player is in last place
+- Fixed issue with overlay crashing in some cases when an monster's target had not yet been processed in the combatant tables
+
+### Features
+- Added new player metric: Max Damage Per Second
     - "Max Damage Per Second" is each combatant's ongoing max recorded DPS after at least 30 seconds have elapsed in the encounter
-- ! - Added pet and companion support
+- Added pet and companion support
     - Pets and companions will appear below the main player table
     - Each pet or companion counts towards the overall combatant count
     - Your combatant rank/performance is based on your character's DPS/HPS/etc. not the DPS/HPS/etc. of your pets or companions
@@ -21,13 +38,13 @@
         - Ember does not provide any pet merging functionality outside of the standard ACT merging functionality
 
 ### UI Changes
-- ?
+- N/A
 
 ### Code Changes
-- ?
+- N/A
 
 ### Miscellaneous
-- ?
+- N/A
 
 ## 0.19.0-alpha
 
