@@ -4,22 +4,21 @@
 
 **Released: [in development]**
 
-*! - indicates change is available on the staging site*
-
 ### Bug Fixes
 - N/A
 
 ### Features
-- ! - Added ability to drag and drop player table columns, player detail metrics, and raid view metrics in settings to allow easy reordering
-- ! - Added shield per second metric
+- Added ability to drag and drop player table columns, player detail metrics, and raid view metrics in settings to allow easy reordering
+- Added shield per second metric
 
 ### UI Changes
-- ! - Updated translations for Chinese
-- ! - Changed colors of player detail chart
+- Added translations for Korean
+- Updated translations for Chinese
+- Changed colors of player detail chart
     - Red for DPS
     - Green for HPS
     - Blue for DTPS
-- ! - Reordered max hit and max heal metrics so numeric value displays before skill name
+- Reordered max hit and max heal metrics so numeric value displays before skill name
 
 ### Code Changes
 - N/A
