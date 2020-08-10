@@ -1,5 +1,31 @@
 # Changelog
 
+## 0.21.0-alpha
+
+**Released: 2020-08-09**
+
+### Bug Fixes
+- N/A
+
+### Features
+- Added ability to drag and drop player table columns, player detail metrics, and raid view metrics in settings to allow easy reordering
+- Added shield per second metric
+
+### UI Changes
+- Added translations for Korean
+- Updated translations for Chinese
+- Changed colors of player detail chart
+    - Red for DPS
+    - Green for HPS
+    - Blue for DTPS
+- Reordered max hit and max heal metrics so numeric value displays before skill name
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- Updated README feature images
+
 ## 0.20.3-alpha
 
 **Released: 2020-08-02**
