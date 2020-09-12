@@ -1,10 +1,48 @@
 # Changelog
 
+## 0.??.?-alpha
+
+**Released: [in development]**
+
+*! - indicates change is available on the staging site*
+
+### Bug Fixes
+- ?
+
+### Features
+- ?
+
+### UI Changes
+- Player names are now layered above the performance bars in the DOM for style and color consistency
+
+### Code Changes
+- ?
+
+### Miscellaneous
+- ?
+
+## 0.23.1-alpha
+
+**Released: 2020-09-06**
+
+### Bug Fixes
+- Resolved issue where overlay may crash if a metric rename uses an emoji
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
 ## 0.23.0-alpha
 
-**Released: [in staging]**
-
-*Changes are available on the staging site*
+**Released: 2020-09-06**
 
 ### Bug Fixes
 - Resolved issue where table header language did not update immedidately upon changing language
@@ -17,7 +55,7 @@
     - Will only pull settings from like-enviroments (i.e. a production overlay will only pull production settings and a staging overlay only pulls staging settings)
 
 ### UI Changes
-- Updated translations for Japanese
+- Updated translations for Japanese and Chinese
 
 ### Code Changes
 - Refactored event subscription logic for performance
