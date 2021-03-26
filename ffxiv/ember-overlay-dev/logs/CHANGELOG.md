@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.24.0-alpha
+
+**Released: [in staging]**
+
+### Bug Fixes
+- Resolved issue where overlay would sometimes crash when restoring settings from OverlayPlugin
+
+### Features
+- Add text-to-speech alerts at Settings > Text to Speech
+- Added numeric-only max hit metric
+
+### UI Changes
+- N/A
+
+### Code Changes
+- Abstracted some `MetricNameTable` logic to `Table` in order to share it with the TTS rules table
+
+### Miscellaneous
+- Updated donor credits
+- Added PayPay donation option
+
 ## 0.23.3-alpha
 
 **Released: 2020-01-02**
