@@ -9,7 +9,7 @@
 
 ### Features
 - Added spell timers
-    - Right-click on overlay and choose "Mode: Spell Timer"
+    - Right-click on overlay and choose "Mode: Spell Timers"
     - Setup can be accessed at Settings > Spell Timers
         - Settings cog is moved to the top right of the overlay when in spell timer mode
     - "Use Text to Speech" setting causes the spell name to be said when it's ready
