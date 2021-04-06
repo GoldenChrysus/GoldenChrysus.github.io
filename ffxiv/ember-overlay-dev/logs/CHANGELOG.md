@@ -1,14 +1,40 @@
 # Changelog
 
-## 0.24.0-alpha
+## 0.25.0-alpha
 
 **Released: [in staging]**
+
+### Bug Fixes
+- Resolved issue where settings did not simultaneously distribute if multiple overlays were open
+
+### Features
+- Added spell timers
+    - Right-click on overlay and choose "Mode: Spell Timer"
+    - Setup can be accessed at Settings > Spell Timers
+        - Settings cog is moved to the top right of the overlay when in spell timer mode
+    - "Use Text to Speech" setting causes the spell name to be said when it's ready
+    - "Minimal Layout" setting turns the spell timers into compact bars
+    - "Warning Threshold" setting causes the spell to begin flashing when the duration is expiring
+    - The "Reverse" options cause the cooldown bar to deplete left-to-right instead of right-to-left
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
+## 0.24.0-alpha
+
+**Released: 2021-03-28**
 
 ### Bug Fixes
 - Resolved issue where overlay would sometimes crash when restoring settings from OverlayPlugin
 
 ### Features
-- Add text-to-speech alerts at Settings > Text to Speech
+- Added text-to-speech alerts at Settings > Text to Speech
 - Added numeric-only max hit metric
 
 ### UI Changes
@@ -23,7 +49,7 @@
 
 ## 0.23.3-alpha
 
-**Released: 2020-01-02**
+**Released: 2021-01-02**
 
 ### Bug Fixes
 - N/A
