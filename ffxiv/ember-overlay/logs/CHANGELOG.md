@@ -1,5 +1,38 @@
 # Changelog
 
+## 0.25.0-alpha
+
+**Released: 2021-04-10**
+
+### Bug Fixes
+- Resolved issue where settings did not simultaneously distribute if multiple overlays were open
+
+### Features
+- Added spell timers (for skills, buffs, and DOT's)
+    - Right-click on overlay and choose "Mode: Spell Timers"
+    - Setup can be accessed at Settings > Spell Timers
+        - Settings cog is moved to the top right of the overlay when in spell timer mode
+    - "Use Text to Speech" setting causes the spell name to be said when it's ready
+    - "Minimal Layout" setting turns the spell timers into compact bars
+    - "Warning Threshold" setting causes the spell to begin flashing when the duration is expiring
+    - The "Reverse" options cause the cooldown bar to deplete left-to-right instead of right-to-left
+    - "Invert Vertical" causes the spells to stack bottom-to-top instead of top-to-bottom
+    - "Invert Horizontal" causes the spells to stack right-to-left instead of left-to-right
+- Added classic theme
+    - Setting to enable is located at Settings > Interface > Theme
+
+### UI Changes
+- Theme setting (Settings > Interface > Theme) is now a select dropdown
+    - Default theme is "FFXIV Dark"
+    - Previous "Use Light Theme" setting now corresponds to "FFXIV Light"
+    - New classic theme is "FFXIV Classic"
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
 ## 0.24.0-alpha
 
 **Released: 2021-03-28**
