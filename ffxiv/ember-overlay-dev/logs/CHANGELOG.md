@@ -1,8 +1,27 @@
 # Changelog
 
+## 0.27.1-alpha
+
+**Released: 2021-04-26**
+
+### Bug Fixes
+- Resolved issue where adding timers may not work until the overlay is reloaded
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
 ## 0.27.0-alpha
 
-**Released: [in staging]**
+**Released: 2021-04-25**
 
 ### Bug Fixes
 - Resolved issue with reordering multiple-select dropdowns in settings
