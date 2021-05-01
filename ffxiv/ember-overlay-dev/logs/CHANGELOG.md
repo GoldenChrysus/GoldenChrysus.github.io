@@ -2,17 +2,20 @@
 
 ## 0.28.0-alpha
 
-**Released: [in development]**
+**Released: [in staging]**
 
 ### Bug Fixes
-- Resolved issue where TTS alerts would include punctuation in some Windows voices
 - Resolved issue where some buffs were missing from the available options
+- Resolved issue where "Invert Vertical" setting did not align timers to bottom of UI Builder sections
+- Resolved issue where TTS alerts would include punctuation in some Windows voices
+- Resolved issue where disable UI Builder while in "Edit UI" did not remove the UI Builder grid
 
 ### Features
 - Added spell timer support for PVP skills
 
 ### UI Changes
 - Added translations for Ukrainian
+- Changed Interface > Decimal Accuracy setting to slider for UI consistency
 
 ### Code Changes
 - N/A
