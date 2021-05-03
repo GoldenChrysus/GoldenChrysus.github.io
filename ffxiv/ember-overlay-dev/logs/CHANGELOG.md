@@ -1,5 +1,98 @@
 # Changelog
 
+## 0.28.0-alpha
+
+**Released: 2021-05-02**
+
+### Features
+- Added setting "Show Names When Hovering Over Timer" in Spell Designer > General to enable timer name tooltips
+- Added spell timer support for PVP skills
+
+### UI Changes
+- Added translations for Ukrainian
+- Updated translations for German
+- Changed Interface > Decimal Accuracy setting to slider for UI consistency
+
+### Bug Fixes
+- Resolved issue where some buffs were missing from the available options
+- Resolved issue where "Invert Vertical" setting did not align timers to bottom of UI Builder sections
+- Resolved issue where TTS alerts would include punctuation in some Windows voices
+- Resolved issue where disabling UI Builder while in "Edit UI" did not remove the UI Builder grid
+- Resolved issue where Dualcast would not be included in permanent timers for Red Mage
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
+## 0.27.2-alpha
+
+**Released: 2021-04-26**
+
+### Bug Fixes
+- Resolved issue where clicking the highlighted settings cog did not remove the highlight
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
+## 0.27.1-alpha
+
+**Released: 2021-04-26**
+
+### Bug Fixes
+- Resolved issue where adding timers may not work until the overlay is reloaded
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
+## 0.27.0-alpha
+
+**Released: 2021-04-25**
+
+### Bug Fixes
+- Resolved issue with reordering multiple-select dropdowns in settings
+- Resolved issue where cooldowns would be inaccurate for Contre Sixte, Manafication, and Sharpcast if your character has the recast reduction traits
+- Resolved issue where timer indicator was shifted right by 3 pixels when setting to hide icons was enabled
+- Resolved issue where resizing a spell timer UI section would move it back to its original position
+
+### Features
+- Added setting "Display Permanently" for each timer type in Settings > Spell Timers
+- Added setting "Use Static Positions for Permanent Timers" for each timer type in Settings > Spell Timers
+- Added setting "Use Text to Speech" at Settings > Party Spell Timers
+- Added setting "Only Track in These Instances" at Settings > Party Spell Timers
+- Added spell timer preview when in Edit UI mode
+- Added Discord webhook support at setting tab "Discord Webhook"
+
+### UI Changes
+- Made parser footer more responsive at small overlay sizes (less than or equal to 350 pixels wide)
+
+### Code Changes
+- Consolidated duplicated localization texts
+- Removed unnecessary setting schema value lookup functions
+- Made settings saving more graceful
+
+### Miscellaneous
+- N/A
+
 ## 0.26.0-alpha
 
 **Released: 2021-04-22**
@@ -11,7 +104,7 @@
 - Added setting "Text to Speech Trigger" to allow choosing when the TTS alert should trigger
 - Added new setting tab "Party Spell Timers" to set spells that should be tracked for other party/alliance members
 - Added icon-only spell timer layout at Spell Timers > Layout; enabling this will override the setting to show/hide spell icons
-- Add new setting tab "Spell Designer" for customizing the appearance of timers
+- Added new setting tab "Spell Designer" for customizing the appearance of timers
 - Added spell timer custom UI builder
     - New setting tab "UI Builder" allows creation of spell timer sections that track only the spell types you choose
     - Setting "Use UI Builder" in the UI Builder tab must be enabled for changes to take effect
