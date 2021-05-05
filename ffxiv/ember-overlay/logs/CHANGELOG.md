@@ -1,15 +1,28 @@
 # Changelog
 
+## 0.28.1-alpha
+
+**Released: 2021-05-05**
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Bug Fixes
+- Resolved issue where some effect timers appeared too many times
+- Resolved issue where some stack-based effects would reset to the maximum duration when a stack was lost
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
 ## 0.28.0-alpha
 
 **Released: 2021-05-02**
-
-### Bug Fixes
-- Resolved issue where some buffs were missing from the available options
-- Resolved issue where "Invert Vertical" setting did not align timers to bottom of UI Builder sections
-- Resolved issue where TTS alerts would include punctuation in some Windows voices
-- Resolved issue where disabling UI Builder while in "Edit UI" did not remove the UI Builder grid
-- Resolved issue where Dualcast would not be included in permanent timers for Red Mage
 
 ### Features
 - Added setting "Show Names When Hovering Over Timer" in Spell Designer > General to enable timer name tooltips
@@ -19,6 +32,13 @@
 - Added translations for Ukrainian
 - Updated translations for German
 - Changed Interface > Decimal Accuracy setting to slider for UI consistency
+
+### Bug Fixes
+- Resolved issue where some buffs were missing from the available options
+- Resolved issue where "Invert Vertical" setting did not align timers to bottom of UI Builder sections
+- Resolved issue where TTS alerts would include punctuation in some Windows voices
+- Resolved issue where disabling UI Builder while in "Edit UI" did not remove the UI Builder grid
+- Resolved issue where Dualcast would not be included in permanent timers for Red Mage
 
 ### Code Changes
 - N/A
