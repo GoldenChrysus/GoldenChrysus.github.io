@@ -2,7 +2,7 @@
 
 ## 0.28.1-alpha
 
-**Released: [in development]**
+**Released: 2021-05-05**
 
 ### Features
 - N/A
