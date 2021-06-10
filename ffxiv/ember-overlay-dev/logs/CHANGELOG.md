@@ -1,5 +1,62 @@
 # Changelog
 
+## 0.29.0-alpha
+
+**Released: [in staging]**
+
+### Features
+- Added spell timer support for actions that change into other actions (e.g. a Samurai can now track Tsubame-gaeshi instead of Kaeshi: Setsugekka)
+
+### UI Changes
+- N/A
+
+### Bug Fixes
+- Resolved issue where health-based TTS alerts would never trigger
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
+## 0.28.3-alpha
+
+**Released: 2021-05-24**
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Bug Fixes
+- Resolved issue where a jobless combatant (e.g. Limit Breaks) would sometimes crash the overlay
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
+## 0.28.2-alpha
+
+**Released: 2021-05-06**
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Bug Fixes
+- Resolved issue where some jobless combatants would appear in the overlay when collapsed
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
 ## 0.28.1-alpha
 
 **Released: 2021-05-05**
