@@ -208,4 +208,33 @@
 </div>
 </div>
 <SCRIPT data-cfasync="false" SRC="//bdv.bidvertiser.com/BidVertiser.dbm?pid=899432&bid=2059596&fid=2059596" TYPE="text/javascript"></SCRIPT>
+<script>
+(function() {
+	const url  = "https://puwpush.com/get/";
+	const data = {"imp":[{"secure":0,"ext":{"id":1096,"spaceid":1096,"type":"pop","subid":"109874213","utm1":"","utm2":"","utm4":"","spot_id":3573,"labels":"4,5,6,7,8,9,26,46,47,54,55,61"},"pext":{"ab":0}}],"site":{"id":"4039","page":window.location.href},"device":{"w":screen.width,"h":screen.height},"user":{"id":"2c1c30c52e4f976c2293096144ab5353"},"ext":{"dt":Date.now()}};
+	const http = new XMLHttpRequest();
+
+	http.open("POST", url);
+	http.setRequestHeader("Content-Type", "application/json");
+
+	http.onreadystatechange = function(r) {
+		if (http.response) {
+			try {
+				let res = JSON.parse(http.response);
+
+				if (res && res.url) {
+					const a = document.createElement("a");
+               
+               a.href      = res.url;
+               a.innerHTML = "test";
+               
+               document.body.appendChild(a);
+				}
+			} catch {}
+		}
+	}
+
+	http.send(JSON.stringify(data));
+}());
+</script>
 </body></html>
