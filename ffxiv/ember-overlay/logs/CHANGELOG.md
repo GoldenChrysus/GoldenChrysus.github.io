@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.32.0-alpha
+
+**Released: 2021-10-08**
+
+### Bug Fixes
+- N/A
+
+### Features
+- Added setting at Settings > Interface > "Use Job Names Instead of Player Names" to display job name instead of player name
+- Added TTS alert for low mana
+
+### UI Changes
+- N/A
+
+### Code Changes
+- Added debuff data
+
+### Miscellaneous
+- N/A
+
 ## 0.31.0-alpha
 
 **Released: 2021-08-18**
