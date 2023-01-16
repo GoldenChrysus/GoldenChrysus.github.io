@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.4.0
+
+**Released: 2023-01-16**
+
+### Bug Fixes
+- N/A
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- Updated game data through FFXIV patch 6.3
+
 ## 1.3.0
 
 **Released: 2022-12-18**
