@@ -1,8 +1,27 @@
 # Changelog
 
+## 1.5.1
+
+**Released: 2023-06-25**
+
+### Bug Fixes
+- Resolved invalid state fetch error
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
 ## 1.5.0
 
-**Released: [in staging]**
+**Released: 2023-06-03**
 
 ### Bug Fixes
 - N/A
