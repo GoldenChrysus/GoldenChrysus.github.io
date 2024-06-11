@@ -1,8 +1,27 @@
 # Changelog
 
+## 1.7.1
+
+**Released: 2024-06-11**
+
+### Bug Fixes
+- Resolved issue where overlay did not unhide after auto-hiding and resuming combat
+
+### Features
+- N/A
+
+### UI Changes
+- N/A
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
 ## 1.7.0
 
-**Released: [in staging]**
+**Released: 2024-06-09**
 
 ### Bug Fixes
 - N/A
