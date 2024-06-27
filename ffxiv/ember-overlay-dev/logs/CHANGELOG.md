@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.9.0
+
+**Released: 2024-06-27**
+
+### Bug Fixes
+- Resolved issue where overlay became unusable when enabling horizontal mode while viewing the raid or aggro tabs
+
+### Features
+- Added Dawntrail actions (spells), statuses (effects), and zones
+- Added footer button to toggle the horizontal overlay mode
+
+### UI Changes
+- Improved spell timer image and countdown positioning
+- Improved appearance of encounter timer in right-aligned horizontal overlay
+
+### Code Changes
+- N/A
+
+### Miscellaneous
+- N/A
+
 ## 1.8.1
 
 **Released: 2024-06-13**
